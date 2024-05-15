@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="age-conatainer">
+        <div class="age-subContainer">
+          <p>Day</p>
+          <input type="text" placeholder="DD" id="day">
+          <p id="day-validate"></p>
+        </div>
+        <div  class="age-subContainer">
+          <p>Month</p>
+          <input type="text" placeholder="MM" id="month">
+          <p id="month-validate"></p>
+        </div>
+        <div  class="age-subContainer">
+          <p>Year</p>
+          <input type="text" placeholder="YYYY" id="year">
+          <p id="year-validate"></p>
+        </div>
+      </div>
+        <span id="line"></span>
+        <button id="btn-img">
+          <img src="./assets/images/icon-arrow.svg" id="btn-img2" alt="icon-arrow">
+        </button>
+      
+      <div class="answer">
+        <div class="answer-sub">
+          <span id="answer-year"> </span>
+          <span>--</span> 
+          <span class="text">years</span>
+        </div>
+        <div class="answer-sub">
+          <span id="answer-months"></span> 
+          <span>--</span> 
+          <span class="text">months</span>
+        </div>
+        <div class="answer-sub">
+          <span id="answer-days"> </span>
+          <span>--</span> 
+          <span class="text">days</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Dhivya</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

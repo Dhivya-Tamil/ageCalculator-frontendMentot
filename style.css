@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif;
+    background-color: hsl(0, 0%, 86%);
+}
+section{
+    width: 100%;
+}
+.container{
+    width: 35%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.age-conatainer{
+    display: flex;
+    gap: 20px;
+}
+.age-subContainer input{
+    width: 60px;
+    height: 15px;
+    padding: 15px 50px 10px 10px;
+}
+#line{
+    padding-right: 350px; 
+    border-bottom: 1px solid black;
+}
+#btn-img{
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.answer{
+    padding: 22px;
+}
+.answer span{
+    font-size: 3rem;
+    color: hsl(259, 100%, 65%);
+}
+
+#day-validate, #month-validate, #year-validate{
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+
+.answer-sub .text{
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+@media (min-width: 988px) and (max-width:1152px) {
+    .age-subContainer input{
+        width: 45px;
+        height: 12px;
+        padding: 8px 30px 8px 8px;
+    }
+    #line{
+        padding-right: 290px; 
+        border-bottom: 1px solid black;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 988px) {
+    .age-subContainer input{
+        width: 35px;
+        height: 12px;
+        padding: 8px 30px 8px 8px;
+    }
+    .answer span{
+        font-size: 1.5rem;
+        color: hsl(259, 100%, 65%);
+    }
+    #line{
+        padding-right: 227px; 
+        border-bottom: 1px solid black;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 741px) {
+    .age-subContainer input{
+        width: 20px;
+        height: 12px;
+        padding: 8px 30px 8px 8px;
+    }
+    .answer span{
+        font-size: 1.5rem;
+        color: hsl(259, 100%, 65%);
+    }
+    #line{
+        padding-right: 180px; 
+        border-bottom: 1px solid black;
+    }
+}
+
+@media (min-width: 354px) and (max-width: 620px) {
+    .age-subContainer input{
+        width: 10px;
+        height: 12px;
+        padding: 8px 30px 8px 8px;
+    }
+    .answer span{
+        font-size: 1.5rem;
+        color: hsl(259, 100%, 65%);
+    }
+    #line{
+        padding-right: 155px; 
+        border-bottom: 1px solid black;
+    }
+}
